@@ -1,0 +1,76 @@
+body {
+    background-color: #ffb6c1; /* Roza boja pozadine */
+    font-family: 'Bookman Old Style', serif;
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    text-align: center;
+    color: black;
+}
+
+p {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    color: black;
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    background-color: #ff8ca0; /* Tamnija roza za okvire */
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+img, video {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.vjezba-section {
+    border-bottom: 2px solid #ff8ca0;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.vjezba-title {
+    border: 2px solid #ff8ca0;
+    padding: 10px;
+    display: inline-block;
+    background-color: white;
+}
+
+
